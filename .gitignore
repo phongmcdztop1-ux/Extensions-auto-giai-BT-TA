@@ -1,0 +1,37 @@
+# Bien moi truong / thu muc bien dich
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+
+# File tam cua dung (khong nen commit)
+*.log
+*.tmp
+*.bak
+*_report.txt
+names.txt
+chk.txt
+trig.txt
+v1.txt
+v2.txt
+env*.txt
+tree.txt
+secret.txt
+cred.txt
+gitid.txt
+gitdir.txt
+lsremote.txt
+_*.txt
+push_*.txt
+
+# He dieu hanh
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# KHONG bao gio commit thu muc nay - chua API key cua nguoi dung
+# (extension luu config trong chrome.storage.local, KHONG nam trong file)
+*.env
+config.local.json
+secrets.json
